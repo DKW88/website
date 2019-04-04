@@ -1,0 +1,125 @@
+<html>
+
+
+<head>
+
+<link rel="stylesheet" type="text/css" href="stylesheet/stylesheet.css">
+
+
+
+
+
+</head>
+
+
+<body>
+
+<script type="text/javascript">
+
+function superhero(){
+    var one;
+    var time = new Date().getHours();
+    if (time < 6) { 
+        alert("Good morning early birds");
+        one = "Good morning early birds";
+    } 
+    else if (time < 12 && time > 6){
+        alert("Good morning");
+        one = "Good morning";
+    } 
+    else if (time <= 17 && time >= 12){
+        alert("Good afternoon, need a nap?");
+        one = "Good afternoon, need a nap?";
+    }
+    else if (time < 20 && time > 17){
+        alert("Good Night");
+        one = "Good Night";
+    }
+    else {alert("Hello Night Owl");
+        one = "Hello Night Owl";
+    }
+    console.log(one)
+}
+</script>
+
+<div class="navbar">
+
+<a href = "#Home">Home</a>
+
+<a href="#">News</a>
+
+<a href="#">contact</a>
+
+</div>
+
+<button onClick ="superhero()">Click me</button>
+<p id = "demo"></p>
+
+
+
+
+<h1> World Wide Web </h1>
+
+<p> The WorldWideWeb (W3) is a wide-area <a href="http://info.cern.ch/hypertext/WWW/WhatIs.html">hypermedia</a>
+ information retrieval initiative aiming to give universal access to a large universe of documents. </p>
+
+<br>
+
+<p> Everything there is online about W3 is linked directly or indirectly to this document, including an <a href="http://info.cern.ch/hypertext/WWW/Summary.html">executive summary</a> of the project, <a href="http://info.cern.ch/hypertext/WWW/Administration/Mailing/Overview.html" >Mailing lists</a> , <a href="http://info.cern.ch/hypertext/WWW/Policy.html">Policy</a> , November's <a href="http://info.cern.ch/hypertext/WWW/News/9211.html">W3 news</a> , <a href="http://info.cern.ch/hypertext/WWW/FAQ/List.html">  Frequently Asked Questions </a> </p>
+
+<br>
+
+<p> <a href="info.cern.ch/hypertext/DataSources/Top.html">What's out there?</a></p>
+<p class="one"> Pointers to the world's online information, subjects , W3 servers, etc.</p>
+
+<p> <a href="info.cern.ch/hypertext/WWW/Help.html">Help</a> </p>
+
+<p class="one">on the browser you are using </p>
+
+<p> <a href="http://info.cern.ch/hypertext/WWW/Status.html">Software Products</a></p>
+
+<p class="one">A list of W3 project components and their current state. (e.g.<a href="http://info.cern.ch/hypertext/WWW/LineMode/Browser.html">Line Mode</a>
+ ,X11 <a href="http://info.cern.ch/hypertext/WWW/Status.html#35">Viola</a> , <a href="http://info.cern.ch/hypertext/WWW/NeXT/WorldWideWeb.html">NeXTStep</a> , <a href="http://info.cern.ch/hypertext/WWW/Daemon/Overview.html">Servers</a>
+ , <a href="http://info.cern.ch/hypertext/WWW/Tools/Overview.html">Tools</a> , <a href="http://info.cern.ch/hypertext/WWW/MailRobot/Overview.html">Mail robot</a> , <a href="http://info.cern.ch/hypertext/WWW/Status.html#57
+">Library</a> )</p>
+
+<P> <a href="">Technical</a> </P>
+
+<p class="one">Details of protocols, formats, program internals etc</p>
+
+<p> <a href="http://info.cern.ch/hypertext/WWW/Bibliography.html">Bibliography</a></p>
+
+<p class="one">Paper documentation on W3 and references.<p>
+
+<p> <a href="http://info.cern.ch/hypertext/WWW/People.html">People</a> </p>
+
+<p class="one">A list of some people involved in the project.</p>
+
+<P> <a href="http://info.cern.ch/hypertext/WWW/History.html">History</a> </P>
+
+<p class= "one">A summary of the history of the project.</p>
+
+<p> <a href="http://info.cern.ch/hypertext/WWW/Helping.html">How can I help</a>? </p>
+
+<p class="one">If you would like to support the web..</p>
+
+<p> <a href="http://info.cern.ch/hypertext/README.html">Getting code</a> </p>
+ 
+<P class="one">Getting the code by <a href="http://info.cern.ch/hypertext/WWW/LineMode/Defaults/Distribution.html">anonymous FTP</a> , etc </P>
+
+</body>
+
+
+</html>
+<style>
+.one {
+    padding-left: 40px;
+}
+
+p{
+    margin:0px;
+}
+
+
+
+</style>
